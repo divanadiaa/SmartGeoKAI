@@ -1,0 +1,83 @@
+[
+  {
+    "code": "BANTUL",
+    "province_code": "DIY",
+    "name": "Kabupaten Bantul"
+  },
+  {
+    "code": "KULON_PROGO",
+    "province_code": "DIY",
+    "name": "Kabupaten Kulon Progo"
+  },
+  {
+    "code": "SLEMAN",
+    "province_code": "DIY",
+    "name": "Kabupaten Sleman"
+  },
+  {
+    "code": "KOTA_YOGYAKARTA",
+    "province_code": "DIY",
+    "name": "Kota Yogyakarta"
+  },
+
+  {
+    "code": "BOYOLALI",
+    "province_code": "JATENG",
+    "name": "Kabupaten Boyolali"
+  },
+  {
+    "code": "GROBOGAN",
+    "province_code": "JATENG",
+    "name": "Kabupaten Grobogan"
+  },
+  {
+    "code": "KARANGANYAR",
+    "province_code": "JATENG",
+    "name": "Kabupaten Karanganyar"
+  },
+  {
+    "code": "KLATEN",
+    "province_code": "JATENG",
+    "name": "Kabupaten Klaten"
+  },
+  {
+    "code": "MAGELANG_KAB",
+    "province_code": "JATENG",
+    "name": "Kabupaten Magelang"
+  },
+  {
+    "code": "PURWOREJO",
+    "province_code": "JATENG",
+    "name": "Kabupaten Purworejo"
+  },
+  {
+    "code": "SRAGEN",
+    "province_code": "JATENG",
+    "name": "Kabupaten Sragen"
+  },
+  {
+    "code": "SUKOHARJO",
+    "province_code": "JATENG",
+    "name": "Kabupaten Sukoharjo"
+  },
+  {
+    "code": "TEMANGGUNG",
+    "province_code": "JATENG",
+    "name": "Kabupaten Temanggung"
+  },
+  {
+    "code": "WONOGIRI",
+    "province_code": "JATENG",
+    "name": "Kabupaten Wonogiri"
+  },
+  {
+    "code": "KOTA_MAGELANG",
+    "province_code": "JATENG",
+    "name": "Kota Magelang"
+  },
+  {
+    "code": "KOTA_SURAKARTA",
+    "province_code": "JATENG",
+    "name": "Kota Surakarta"
+  }
+]

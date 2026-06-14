@@ -1,0 +1,497 @@
+[
+  {
+    "code": "BANTUL_BANGUNTAPAN",
+    "regency_code": "BANTUL",
+    "name": "Banguntapan"
+  },
+  {
+    "code": "BANTUL_BANTUL",
+    "regency_code": "BANTUL",
+    "name": "Bantul"
+  },
+  {
+    "code": "BANTUL_IMOGIRI",
+    "regency_code": "BANTUL",
+    "name": "Imogiri"
+  },
+  {
+    "code": "BANTUL_KASIHAN",
+    "regency_code": "BANTUL",
+    "name": "Kasihan"
+  },
+  {
+    "code": "BANTUL_PANDAK",
+    "regency_code": "BANTUL",
+    "name": "Pandak"
+  },
+  {
+    "code": "BANTUL_PLERET",
+    "regency_code": "BANTUL",
+    "name": "Pleret"
+  },
+  {
+    "code": "BANTUL_PUNDONG",
+    "regency_code": "BANTUL",
+    "name": "Pundong"
+  },
+  {
+    "code": "BANTUL_SEDAYU",
+    "regency_code": "BANTUL",
+    "name": "Sedayu"
+  },
+  {
+    "code": "BANTUL_SEWON",
+    "regency_code": "BANTUL",
+    "name": "Sewon"
+  },
+  {
+    "code": "BANTUL_SRANDAKAN",
+    "regency_code": "BANTUL",
+    "name": "Srandakan"
+  },
+
+  {
+    "code": "BOYOLALI_BANYUDONO",
+    "regency_code": "BOYOLALI",
+    "name": "Banyudono"
+  },
+  {
+    "code": "BOYOLALI_MOJOSONGO",
+    "regency_code": "BOYOLALI",
+    "name": "Mojosongo"
+  },
+  {
+    "code": "BOYOLALI_TERAS",
+    "regency_code": "BOYOLALI",
+    "name": "Teras"
+  },
+
+  {
+    "code": "GROBOGAN_GEYER",
+    "regency_code": "GROBOGAN",
+    "name": "Geyer"
+  },
+
+  {
+    "code": "KARANGANYAR_COLOMADU",
+    "regency_code": "KARANGANYAR",
+    "name": "Colomadu"
+  },
+  {
+    "code": "KARANGANYAR_GONDANGREJO",
+    "regency_code": "KARANGANYAR",
+    "name": "Gondangrejo"
+  },
+  {
+    "code": "KARANGANYAR_JATEN",
+    "regency_code": "KARANGANYAR",
+    "name": "Jaten"
+  },
+  {
+    "code": "KARANGANYAR_KEBAKKRAMAT",
+    "regency_code": "KARANGANYAR",
+    "name": "Kebakkramat"
+  },
+
+  {
+    "code": "KLATEN_CEPER",
+    "regency_code": "KLATEN",
+    "name": "Ceper"
+  },
+  {
+    "code": "KLATEN_DELANGGU",
+    "regency_code": "KLATEN",
+    "name": "Delanggu"
+  },
+  {
+    "code": "KLATEN_JOGONALAN",
+    "regency_code": "KLATEN",
+    "name": "Jogonalan"
+  },
+  {
+    "code": "KLATEN_JUWIRING",
+    "regency_code": "KLATEN",
+    "name": "Juwiring"
+  },
+  {
+    "code": "KLATEN_KLATEN_SELATAN",
+    "regency_code": "KLATEN",
+    "name": "Klaten Selatan"
+  },
+  {
+    "code": "KLATEN_KLATEN_TENGAH",
+    "regency_code": "KLATEN",
+    "name": "Klaten Tengah"
+  },
+  {
+    "code": "KLATEN_KLATEN_UTARA",
+    "regency_code": "KLATEN",
+    "name": "Klaten Utara"
+  },
+  {
+    "code": "KLATEN_PRAMBANAN",
+    "regency_code": "KLATEN",
+    "name": "Prambanan"
+  },
+  {
+    "code": "KLATEN_WONOSARI",
+    "regency_code": "KLATEN",
+    "name": "Wonosari"
+  },
+
+  {
+    "code": "KULON_PROGO_GALUR",
+    "regency_code": "KULON_PROGO",
+    "name": "Galur"
+  },
+  {
+    "code": "KULON_PROGO_KOKAP",
+    "regency_code": "KULON_PROGO",
+    "name": "Kokap"
+  },
+  {
+    "code": "KULON_PROGO_PENGASIH",
+    "regency_code": "KULON_PROGO",
+    "name": "Pengasih"
+  },
+  {
+    "code": "KULON_PROGO_SENTOLO",
+    "regency_code": "KULON_PROGO",
+    "name": "Sentolo"
+  },
+  {
+    "code": "KULON_PROGO_TEMON",
+    "regency_code": "KULON_PROGO",
+    "name": "Temon"
+  },
+  {
+    "code": "KULON_PROGO_WATES",
+    "regency_code": "KULON_PROGO",
+    "name": "Wates"
+  },
+
+  {
+    "code": "MAGELANG_KAB_GRABAG",
+    "regency_code": "MAGELANG_KAB",
+    "name": "Grabag"
+  },
+  {
+    "code": "MAGELANG_KAB_MERTOYUDAN",
+    "regency_code": "MAGELANG_KAB",
+    "name": "Mertoyudan"
+  },
+  {
+    "code": "MAGELANG_KAB_MUNGKID",
+    "regency_code": "MAGELANG_KAB",
+    "name": "Mungkid"
+  },
+  {
+    "code": "MAGELANG_KAB_MUNTILAN",
+    "regency_code": "MAGELANG_KAB",
+    "name": "Muntilan"
+  },
+  {
+    "code": "MAGELANG_KAB_SALAM",
+    "regency_code": "MAGELANG_KAB",
+    "name": "Salam"
+  },
+  {
+    "code": "MAGELANG_KAB_SECANG",
+    "regency_code": "MAGELANG_KAB",
+    "name": "Secang"
+  },
+
+  {
+    "code": "PURWOREJO_BAGELEN",
+    "regency_code": "PURWOREJO",
+    "name": "Bagelen"
+  },
+  {
+    "code": "PURWOREJO_BANYUURIP",
+    "regency_code": "PURWOREJO",
+    "name": "Banyuurip"
+  },
+  {
+    "code": "PURWOREJO_BAYAN",
+    "regency_code": "PURWOREJO",
+    "name": "Bayan"
+  },
+  {
+    "code": "PURWOREJO_PURWODADI",
+    "regency_code": "PURWOREJO",
+    "name": "Purwodadi"
+  },
+
+  {
+    "code": "SLEMAN_BERBAH",
+    "regency_code": "SLEMAN",
+    "name": "Berbah"
+  },
+  {
+    "code": "SLEMAN_DEPOK",
+    "regency_code": "SLEMAN",
+    "name": "Depok"
+  },
+  {
+    "code": "SLEMAN_GAMPING",
+    "regency_code": "SLEMAN",
+    "name": "Gamping"
+  },
+  {
+    "code": "SLEMAN_GODEAN",
+    "regency_code": "SLEMAN",
+    "name": "Godean"
+  },
+  {
+    "code": "SLEMAN_KALASAN",
+    "regency_code": "SLEMAN",
+    "name": "Kalasan"
+  },
+  {
+    "code": "SLEMAN_MLATI",
+    "regency_code": "SLEMAN",
+    "name": "Mlati"
+  },
+  {
+    "code": "SLEMAN_MOYUDAN",
+    "regency_code": "SLEMAN",
+    "name": "Moyudan"
+  },
+  {
+    "code": "SLEMAN_SLEMAN",
+    "regency_code": "SLEMAN",
+    "name": "Sleman"
+  },
+  {
+    "code": "SLEMAN_TEMPEL",
+    "regency_code": "SLEMAN",
+    "name": "Tempel"
+  },
+
+  {
+    "code": "SRAGEN_GEMOLONG",
+    "regency_code": "SRAGEN",
+    "name": "Gemolong"
+  },
+  {
+    "code": "SRAGEN_GONDANG",
+    "regency_code": "SRAGEN",
+    "name": "Gondang"
+  },
+  {
+    "code": "SRAGEN_KALIJAMBE",
+    "regency_code": "SRAGEN",
+    "name": "Kali Jambe"
+  },
+  {
+    "code": "SRAGEN_KARANGMALANG",
+    "regency_code": "SRAGEN",
+    "name": "Karangmalang"
+  },
+  {
+    "code": "SRAGEN_MASARAN",
+    "regency_code": "SRAGEN",
+    "name": "Masaran"
+  },
+  {
+    "code": "SRAGEN_MIRI",
+    "regency_code": "SRAGEN",
+    "name": "Miri"
+  },
+  {
+    "code": "SRAGEN_NGRAMPAL",
+    "regency_code": "SRAGEN",
+    "name": "Ngrampal"
+  },
+  {
+    "code": "SRAGEN_SIDOHARJO",
+    "regency_code": "SRAGEN",
+    "name": "Sidoharjo"
+  },
+  {
+    "code": "SRAGEN_SRAGEN",
+    "regency_code": "SRAGEN",
+    "name": "Sragen"
+  },
+  {
+    "code": "SRAGEN_SUMBERLAWANG",
+    "regency_code": "SRAGEN",
+    "name": "Sumberlawang"
+  },
+
+  {
+    "code": "SUKOHARJO_BAKI",
+    "regency_code": "SUKOHARJO",
+    "name": "Baki"
+  },
+  {
+    "code": "SUKOHARJO_BENDOSARI",
+    "regency_code": "SUKOHARJO",
+    "name": "Bendosari"
+  },
+  {
+    "code": "SUKOHARJO_GATAK",
+    "regency_code": "SUKOHARJO",
+    "name": "Gatak"
+  },
+  {
+    "code": "SUKOHARJO_GROGOL",
+    "regency_code": "SUKOHARJO",
+    "name": "Grogol"
+  },
+  {
+    "code": "SUKOHARJO_KARTASURA",
+    "regency_code": "SUKOHARJO",
+    "name": "Kartasura"
+  },
+  {
+    "code": "SUKOHARJO_MOJOLABAN",
+    "regency_code": "SUKOHARJO",
+    "name": "Mojolaban"
+  },
+  {
+    "code": "SUKOHARJO_NGUTER",
+    "regency_code": "SUKOHARJO",
+    "name": "Nguter"
+  },
+  {
+    "code": "SUKOHARJO_POLOKARTO",
+    "regency_code": "SUKOHARJO",
+    "name": "Polokarto"
+  },
+  {
+    "code": "SUKOHARJO_SUKOHARJO",
+    "regency_code": "SUKOHARJO",
+    "name": "Sukoharjo"
+  },
+
+  {
+    "code": "TEMANGGUNG_BULU",
+    "regency_code": "TEMANGGUNG",
+    "name": "Bulu"
+  },
+  {
+    "code": "TEMANGGUNG_KEDU",
+    "regency_code": "TEMANGGUNG",
+    "name": "Kedu"
+  },
+  {
+    "code": "TEMANGGUNG_KRANGGAN",
+    "regency_code": "TEMANGGUNG",
+    "name": "Kranggan"
+  },
+  {
+    "code": "TEMANGGUNG_PARAKAN",
+    "regency_code": "TEMANGGUNG",
+    "name": "Parakan"
+  },
+  {
+    "code": "TEMANGGUNG_PRINGSURAT",
+    "regency_code": "TEMANGGUNG",
+    "name": "Pringsurat"
+  },
+  {
+    "code": "TEMANGGUNG_TEMANGGUNG",
+    "regency_code": "TEMANGGUNG",
+    "name": "Temanggung"
+  },
+
+  {
+    "code": "WONOGIRI_BATURETNO",
+    "regency_code": "WONOGIRI",
+    "name": "Baturetno"
+  },
+  {
+    "code": "WONOGIRI_NGUNTORONADI",
+    "regency_code": "WONOGIRI",
+    "name": "Nguntoronadi"
+  },
+  {
+    "code": "WONOGIRI_SELOGIRI",
+    "regency_code": "WONOGIRI",
+    "name": "Selogiri"
+  },
+  {
+    "code": "WONOGIRI_WONOGIRI",
+    "regency_code": "WONOGIRI",
+    "name": "Wonogiri"
+  },
+
+  {
+    "code": "KOTA_MAGELANG_MAGELANG_SELATAN",
+    "regency_code": "KOTA_MAGELANG",
+    "name": "Magelang Selatan"
+  },
+  {
+    "code": "KOTA_MAGELANG_MAGELANG_UTARA",
+    "regency_code": "KOTA_MAGELANG",
+    "name": "Magelang Utara"
+  },
+
+  {
+    "code": "KOTA_SURAKARTA_BANJARSARI",
+    "regency_code": "KOTA_SURAKARTA",
+    "name": "Banjarsari"
+  },
+  {
+    "code": "KOTA_SURAKARTA_JEBRES",
+    "regency_code": "KOTA_SURAKARTA",
+    "name": "Jebres"
+  },
+  {
+    "code": "KOTA_SURAKARTA_LAWEYAN",
+    "regency_code": "KOTA_SURAKARTA",
+    "name": "Laweyan"
+  },
+  {
+    "code": "KOTA_SURAKARTA_PASAR_KLIWON",
+    "regency_code": "KOTA_SURAKARTA",
+    "name": "Pasar Kliwon"
+  },
+
+  {
+    "code": "KOTA_YOGYAKARTA_DANUREJAN",
+    "regency_code": "KOTA_YOGYAKARTA",
+    "name": "Danurejan"
+  },
+  {
+    "code": "KOTA_YOGYAKARTA_GEDONGTENGEN",
+    "regency_code": "KOTA_YOGYAKARTA",
+    "name": "Gedongtengen"
+  },
+  {
+    "code": "KOTA_YOGYAKARTA_GONDOKUSUMAN",
+    "regency_code": "KOTA_YOGYAKARTA",
+    "name": "Gondokusuman"
+  },
+  {
+    "code": "KOTA_YOGYAKARTA_JETIS",
+    "regency_code": "KOTA_YOGYAKARTA",
+    "name": "Jetis"
+  },
+  {
+    "code": "KOTA_YOGYAKARTA_KOTAGEDE",
+    "regency_code": "KOTA_YOGYAKARTA",
+    "name": "Kotagede"
+  },
+  {
+    "code": "KOTA_YOGYAKARTA_MANTRIJERON",
+    "regency_code": "KOTA_YOGYAKARTA",
+    "name": "Mantrijeron"
+  },
+  {
+    "code": "KOTA_YOGYAKARTA_MERGANGSAN",
+    "regency_code": "KOTA_YOGYAKARTA",
+    "name": "Mergangsan"
+  },
+  {
+    "code": "KOTA_YOGYAKARTA_TEGALREJO",
+    "regency_code": "KOTA_YOGYAKARTA",
+    "name": "Tegalrejo"
+  },
+  {
+    "code": "KOTA_YOGYAKARTA_UMBULHARJO",
+    "regency_code": "KOTA_YOGYAKARTA",
+    "name": "Umbulharjo"
+  }
+]
