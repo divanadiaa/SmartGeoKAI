@@ -1,4 +1,21 @@
 <div class="card">
+    @if ($errors->any())
+        <div style="
+            background:#fee2e2;
+            border:1px solid #ef4444;
+            color:#991b1b;
+            padding:12px;
+            border-radius:8px;
+            margin-bottom:15px;">
+            <strong>Terjadi kesalahan:</strong>
+            <ul style="margin:8px 0 0 20px;">
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+
     <div class="form-grid">
 
         {{-- ID ASET --}}
@@ -197,36 +214,101 @@
         <div class="form-group">
             <label class="form-label">Gambar Aset (maks. 10 file)</label>
             <input type="file"
-                   name="images[]"
-                   class="form-control-full @error('images') is-invalid @enderror"
-                   multiple
-                   accept="image/*">
+                name="images[]"
+                class="form-control-full @error('images') is-invalid @enderror"
+                multiple
+                accept="image/*">
 
             <div class="muted" style="margin-top:6px;">
-                Format gambar, maksimal 2MB per file.
+                Format gambar, maksimal 5MB per file.
             </div>
 
             @error('images')
                 <small class="form-error-text">{{ $message }}</small>
             @enderror
+
+            @if(isset($asset) && $asset->images->count())
+                <div id="gambar-aset" style="margin-top:15px;">
+                    <strong>Gambar Saat Ini</strong>
+
+                    <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:10px;">
+                        @foreach($asset->images as $image)
+                            <div style="border:1px solid #ddd;padding:10px;border-radius:8px;text-align:center;">
+
+                                <a href="{{ asset('storage/' . $image->file_path) }}"
+                                target="_blank">
+                                    <img src="{{ asset('storage/' . $image->file_path) }}"
+                                        alt="{{ $image->file_name }}"
+                                        style="width:150px;height:120px;object-fit:cover;border-radius:6px;">
+                                </a>
+
+                                <div style="margin-top:8px;">
+                                    <a href="{{ route('admin.assets.deleteImage', [$asset->id, $image->id]) }}"
+                                    onclick="return confirm('Hapus gambar ini?')"
+                                    class="btn btn-danger btn-sm">
+                                        Hapus
+                                    </a>
+                                </div>
+
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            @endif
         </div>
 
         {{-- DOCUMENTS --}}
         <div class="form-group">
             <label class="form-label">Dokumen Aset (maks. 10 file)</label>
             <input type="file"
-                   name="documents[]"
-                   class="form-control-full @error('documents') is-invalid @enderror"
-                   multiple
-                   accept=".pdf,.doc,.docx,.xls,.xlsx">
+                name="documents[]"
+                class="form-control-full @error('documents') is-invalid @enderror"
+                multiple
+                accept=".pdf,.doc,.docx,.xls,.xlsx">
 
             <div class="muted" style="margin-top:6px;">
-                Format PDF, DOC, XLS. Maksimal 5MB per file.
+                Format PDF, DOC, XLS. Maksimal 10MB per file.
             </div>
 
             @error('documents')
                 <small class="form-error-text">{{ $message }}</small>
             @enderror
+
+            @if(isset($asset) && $asset->documents->count())
+                <div id="dokumen-aset" style="margin-top:15px;">
+                    <strong>Dokumen Saat Ini</strong>
+
+                    <table class="table" style="margin-top:10px;">
+                        <thead>
+                            <tr>
+                                <th>Nama Dokumen</th>
+                                <th width="180">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach($asset->documents as $document)
+                                <tr>
+                                    <td>{{ $document->file_name }}</td>
+
+                                    <td>
+                                        <a href="{{ asset('storage/' . $document->file_path) }}"
+                                        target="_blank"
+                                        class="btn btn-info btn-sm">
+                                            Lihat
+                                        </a>
+
+                                        <a href="{{ route('admin.assets.deleteDocument', [$asset->id, $document->id]) }}"
+                                        onclick="return confirm('Hapus dokumen ini?')"
+                                        class="btn btn-danger btn-sm">
+                                            Hapus
+                                        </a>
+                                    </td>
+                                </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
+                </div>
+            @endif
         </div>
 
     </div>

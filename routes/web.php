@@ -27,6 +27,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::patch('/users/{user}/toggle-active', [UserController::class, 'toggleActive'])->name('users.toggle-active');
 
         Route::resource('/assets', AssetController::class);
+        Route::get('/assets/document/{document}/download', [AssetController::class, 'downloadDocument'])->name('assets.downloadDocument');
 
         Route::get('/assets/{id}/delete-image/{imageId}', [AssetController::class, 'deleteImage'])->name('assets.deleteImage');
 

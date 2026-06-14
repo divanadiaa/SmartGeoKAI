@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Asset;
 use App\Models\AssetHistory;
+use App\Models\AssetDocument;
 use App\Models\District;
 use App\Models\Province;
 use App\Models\Regency;
@@ -256,6 +257,14 @@ class AssetController extends Controller
         }
     }
 
+    public function downloadDocument(AssetDocument $document)
+    {
+        return response()->download(
+            storage_path('app/public/' . $document->file_path),
+            $document->file_name
+        );
+    }
+
     public function destroy(Asset $asset)
     {
         try {
@@ -314,10 +323,16 @@ class AssetController extends Controller
             'gmaps_url' => ['nullable', 'url'],
 
             'images' => ['nullable', 'array', 'max:10'],
-            'images.*' => ['image', 'max:2048'],
+            'images.*' => ['image', 'max:5120'],
 
             'documents' => ['nullable', 'array', 'max:10'],
-            'documents.*' => ['file', 'mimes:pdf,doc,docx,xls,xlsx', 'max:5120'],
+            'documents.*' => ['file', 'mimes:pdf,doc,docx,xls,xlsx', 'max:10240'],
+        ], [
+            'images.*.image' => 'File gambar harus berupa JPG, PNG, WEBP, atau format gambar lainnya.',
+            'images.*.max' => 'Ukuran gambar maksimal 5 MB per file.',
+
+            'documents.*.mimes' => 'Dokumen harus berformat PDF, DOC, DOCX, XLS, atau XLSX.',
+            'documents.*.max' => 'Ukuran dokumen maksimal 10 MB per file.',
         ]);
     }
 

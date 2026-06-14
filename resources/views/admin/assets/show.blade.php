@@ -161,7 +161,12 @@
                     <div class="image-list">
                         @foreach($asset->images as $image)
                             <div class="image-card">
-                                <img src="{{ asset('storage/' . $image->file_path) }}" alt="{{ $image->file_name }}">
+
+                                <a href="{{ asset('storage/' . $image->file_path) }}"
+                                target="_blank">
+                                    <img src="{{ asset('storage/' . $image->file_path) }}"
+                                        alt="{{ $image->file_name }}">
+                                </a>
 
                                 <div class="muted" style="margin-top: 8px;">
                                     {{ $image->file_name }}
@@ -229,10 +234,9 @@
                                                     <i class="fas fa-eye"></i>
                                                 </a>
 
-                                                <a href="{{ asset('storage/' . $document->file_path) }}"
-                                                   download
-                                                   class="icon-action icon-edit"
-                                                   title="Download Dokumen">
+                                                <a href="{{ route('admin.assets.downloadDocument', $document->id) }}"
+                                                class="icon-action icon-edit"
+                                                title="Download Dokumen">
                                                     <i class="fas fa-download"></i>
                                                 </a>
 
