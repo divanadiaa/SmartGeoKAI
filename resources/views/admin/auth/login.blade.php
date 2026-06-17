@@ -62,7 +62,6 @@
                 <input type="password" id="password" name="password" class="form-control" placeholder="Masukkan password" style="padding-right:50px;">
 
                 <button type="button" onclick="togglePassword()" style="position:absolute;right:14px;top:50%;transform:translateY(-50%);border:none;background:none;cursor:pointer;color:#6f7f90;font-size:16px;">
-                    👁
                 </button>
             </div>
         </div>
